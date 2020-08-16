@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+
+@media all and (min-width: 480px) {
+
+    div {
+        text-align: center;
+    }
+
+    h1 {
+        color: #4a2259;
+        letter-spacing: 10px;
+        font-size: 150px;
+        font-family: 'Chivo', sans-serif;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    h2 {
+        color: #4a2259;
+        letter-spacing: 3px;
+        font-size: 40px;
+        font-family: 'Amatic SC', cursive;
+        line-height: 2px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .form {
+        display: inline-block;
+    }
+
+    ::placeholder {
+        color: #ff9f45;
+        text-align: center;
+    }
+
+    .form-control  {
+        background-color: white;
+        border-color: #ff9f45;
+        border-radius: 10px;
+        color: #ff9f45;
+        margin: 7px 7px 7px 7px;
+        height: 40px;
+        width: 400px;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        outline: none;
+    }
+
+    .btn {
+        background-color: #ffc7a7;
+        border: #ffc7a7;
+        border-radius: 10px;
+        color: white;
+        margin: 7px 7px 7px 7px;
+        height: 48px;
+        width: 408px;
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+
+    a:link {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        color: #ffc7a7;
+        text-decoration: none;
+    }
+
+    a:visited {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        color: #ffc7a7;
+        text-decoration: none;
+    }
+}
